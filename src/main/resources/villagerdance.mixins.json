@@ -2,16 +2,13 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.werdenrc5.villagerdance.mixin",
-  "compatibilityLevel": "JAVA_17",
   "refmap": "villagerdance.mixins.refmap.json",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "VillagerMixin",
     "RaidMixin",
-    "JukeboxBlockEntityMixin",
-    "accessor.JukeboxBlockEntityAccessor"
+    "VillagerMixin"
   ],
   "client": [
-    "client.VillagerRendererMixin",
     "client.VillagerModelMixin"
   ],
   "injectors": {
